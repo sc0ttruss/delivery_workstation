@@ -1,0 +1,8 @@
+api_protocol = "https"
+enterprise = "myorg"
+git_port = "8989"
+organization = "demo"
+pipeline = "master"
+server = "delivery.myorg.chefdemo.net"
+user = "delivery"
+
