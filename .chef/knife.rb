@@ -3,7 +3,7 @@
 current_dir = File.dirname(__FILE__)
 log_level                :info
 log_location             STDOUT
-node_name                "delivery"
+node_name                "srv-delivery"
 client_key               "~/chef-kits/chef/srv-delivery.pem"
 validation_client_name   "myorg-validator"
 validation_key           "~/chef-kits/chef/myorg-validator.pem"
