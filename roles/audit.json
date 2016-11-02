@@ -1,0 +1,6 @@
+"audit": {
+  "profiles": {
+    "base/ssh": true,
+    "base/linux": true
+  }
+}
