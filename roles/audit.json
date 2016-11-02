@@ -1,6 +1,13 @@
-"audit": {
-  "profiles": {
-    "base/ssh": true,
-    "base/linux": true
+{
+  "name": "audit",
+  "chef_tupe": "role",
+  "json_class": "Chef::Role",
+  "default_attributes": {
+    "audit": {
+      "profiles": {
+        "base/ssh": true,
+        "base/linux": true
+      }
+    }
   }
 }
