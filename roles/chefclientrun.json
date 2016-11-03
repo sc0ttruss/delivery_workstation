@@ -1,0 +1,14 @@
+{
+  "name": "chefclientrun",
+  "chef_tupe": "role",
+  "json_class": "Chef::Role",
+  "run_list": [
+    "recipe[chef-client::systemd_service]"
+    ],
+  "default_attributes": {
+    "chef-client": {
+      "interval": 30
+      }
+    }
+  }
+
