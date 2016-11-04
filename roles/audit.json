@@ -14,7 +14,7 @@
         "compliance": "base/linux"
       }
     ],
-     "collector": "chef-server"
+     "collector": ["chef-visibility","chef-server"]
     }
   }
 }
